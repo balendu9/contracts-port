@@ -1,0 +1,4 @@
+Deploy mock tokens, DEXes, a flash loan provider, and the arbitrage contract on testnet.
+Python script simulates price discrepancies by adjusting liquidity on the DEXes (via transactions).
+Python triggers the arbitrage contract, which takes a flash loan, executes trades, repays, and logs results.
+Simulate cycles: Randomly vary liquidity, track metrics (success rate, profits, slippage), and handle risks (e.g., revert on insufficient profit).
