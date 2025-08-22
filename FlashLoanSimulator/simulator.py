@@ -116,6 +116,7 @@ def execute_arbitrage(loan_amount=100*10**18, min_profit=1*10**18):
 # ------------------------------
 # Simulate multiple cycles
 # ------------------------------
+
 def simulate_cycles(num_cycles=100):
     results = []
     for cycle in range(num_cycles):
